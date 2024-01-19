@@ -1,0 +1,288 @@
+/* HEADER NAVIGATION BAR */
+
+.header-nav {
+    display: flex;
+    background-color: #131921;
+    height: 50px;
+    padding: 5px 12px;
+}
+
+.nav-link {
+    border: 1px solid #131921;
+    padding: 4px;
+}
+
+
+
+.nav-left-section {
+    width: 294px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.amazon-logo-link {
+    width: 119px;
+    position: relative;
+}
+
+.amazon-logo {
+    margin-top: 8px;
+    width: 98px;
+}
+
+.amazon-logo-text {
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 16px;
+    right: 9px;
+}
+
+.location-link {
+    position: relative;
+    width: 152px;
+}
+
+.location-icon {
+    position: absolute;
+    top: 21px;  
+    height: 16px;
+    width: 20px;
+}
+
+.text-hello {
+    display: block;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.text-address {
+    font-size: 15px;
+    margin-left: 19px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    word-spacing: 3px;
+}
+
+.nav-middle-section {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 9px;
+    display: flex;
+    align-items: center;
+}
+
+.category-button {
+    border: none;
+    width: 52px;
+    height: 40px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-right: 9px;
+}
+.category-element-container {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.dropdown-icon {
+    width: 8px;
+    height: 8px;
+}
+
+.input-search {
+    flex: 1;
+    height: 38px;
+    border: none;
+    margin-left: -1px;
+    border-left: 1px solid rgb(212, 212, 212);
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+    color: red;
+}
+
+
+
+.search-icon-button {
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 40px;
+    width: 45px;
+    color: white;
+    background-color: rgb(254, 189, 105);
+    padding-top: 3px;
+    padding-right: 8px;
+}
+
+.search-icon {
+    width: 22px;
+}
+
+
+.nav-right-section {
+    width: 375px;
+    display: flex;
+    justify-content: end;
+}
+
+.country-select  {
+    margin-left: 2px;
+    width: 63px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.country-flag-select {
+    width: 20px;
+    height: 14px;
+    margin-left: 2px;
+}
+
+.country-language-select {
+    margin-left: 1px
+}
+
+
+
+.nav-sign-in {
+    margin-left: 2px;
+    width: 115px;
+    line-height: 13px;
+    padding-top: 9px;
+    padding-left: 10px;
+}
+
+.text-hello-sign-in {
+    font-size: 12px;
+}
+
+.text-account-lists {
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.returns-and-orders {
+    width: 62px;
+    margin-left: 2px;
+    line-height: 13px;
+    padding-top: 9px;
+    padding-left: 10px;
+}
+
+.text-returns {
+    font-size: 12px;
+}
+
+.text-orders {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.cart-icon-container {
+    margin-left: 2px;
+    width: 71px;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 7px;
+}
+
+.cart-icon {
+    width: 39px;
+}
+
+.text-cart {
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 24px;
+}
+
+.cart-quantity {
+    color: #f08804;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 7px;
+    right: 48px;
+}
+
+/* OPTION CONTAINER */
+
+.option-container {
+    background-color: rgb(35, 47, 62);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    height: 40px;
+}
+
+.option-left-section {
+    width: 781px;
+    display: flex;
+}
+
+.option-sidebar {
+    width: 60px;
+}
+
+.sidebar-link {
+    border: 1px solid rgb(35, 47, 62);
+    display: flex;
+    align-items: center;
+    height: 38px;
+}
+
+.hamburger-menu {
+    margin-left: 9px;
+}
+
+.text-all-with-hamburger-menu {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.option-element {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.option-element-link {
+    border: 1px solid rgb(35, 47, 62);
+    font-size: 13.6px;
+    padding: 0px 8px;
+    height: 96%;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-prime-in-option {
+    margin-right: 8px;
+}
+
+.option-right-section-link {
+    border: 1px solid rgb(35, 47, 62);
+    display: block;
+    width: 400px;
+    height: 93%;
+}
+
+.sale-live-now-image {
+    width: 100%;
+    height: 100%;
+}
+
+

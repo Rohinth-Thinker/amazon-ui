@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+    overflow-y: scroll;
+    background-color: rgb(231, 231, 231);
+}
+
+
+.link:hover {
+    border-color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+/*#131921*/
+/*rgb(35, 47, 62);*/
